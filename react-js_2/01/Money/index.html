@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Bootstrap 4/css/bootstrap.css">
+</head>
+<style>
+    #rectangle{
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+    }
+    #rectangle:hover{
+        border-radius: 50%;
+        background-color: black;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="offset-3 col-6">
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-success" id="adds">edit</button>
+                    <button class="btn btn-danger" id="remova">Remove</button>
+                </div>
+                <div class="card-body" id="bgs">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Adipisci est fugiat nostrum. Aliquam error exercitationem
+                        impedit quaerat saepe suscipit veritatis. Laborum libero
+                        officiis praesentium voluptatibus? Adipisci at consequuntur,
+                        cumque, debitis doloribus ea earum exercitationem explicabo
+                        facere fugiat id, impedit ipsa mollitia nihil nobis
+                        sequi suscipit unde vero vitae voluptate voluptatibus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="rectangle">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 mt-5">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Add Task</h2>
+                </div>
+                <div class="card-body">
+                    <form action="" name="textForm">
+                        <textarea cols="65" rows="5" name="comments"></textarea>
+                        <input type="date" class="form-control mt-3" name="dates">
+                        <button class="btn btn-success w-100 mt-5" onclick="addTask()">Add Task</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 mt-5">
+            <table class="table table-dark text-white table-striped">
+                <thead>
+                    <th>Tr</th>
+                    <th>Task</th>
+                    <th>Date</th>
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<table border="1" width="500" height="50">
+    <tr>
+        <th>S.N</th>
+        <th>Names</th>
+        <th>Aderss</th>
+        <th>Salary</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <th>Hari Dhital</th>
+        <th>Banepa</th>
+        <th>15000</th>
+    </tr>
+
+    <tr>
+        <th>2</th>
+        <th>Kedar Sharma</th>
+        <th>Panauti</th>
+        <th>17000</th>
+    </tr>
+    <tr>
+        <th COLSPAN="3" STYLE=" text-align: center">Total</th>
+        <th >32000</th>
+
+    </tr>
+
+
+
+
+
+
+</table>
+
+<table border="2" width="500" height ="30">
+    <tr>
+        <td>Level1</td>
+        <td>Level2 </td>
+        <td>Level3</td>
+        <td>Infp</td>
+        <td>Names</td>
+    </tr>
+    <tr>
+<td ROWSPAN="7">System</td>
+<td ROWSPAN="3">Systeam Apps</td>
+    <td rowspan="3">SystemEnv</td>
+    <td>app Test</td>
+    <td>Foo</td>
+
+</tr>
+
+<tr>
+<td>App Memroy</td>
+<td>Foo</td>
+
+
+</tr>
+    <tr>
+<td>App Test</td>
+<td>Bar</td>
+
+
+    </tr>
+<tr>
+    <td ROWSPAN="3">System Memroy</td>
+    <td>SystenEnv2</td>
+    <td>App Test</td>
+    <td>Bar</td>
+
+
+
+</tr>
+<tr>
+    <td ROWSPAN="3">Memeory Test</td>
+    <td>Memory Func</td>
+    <td>Foo</td>
+</tr>
+    <tr>
+        <td>Apps Test</td>
+        <td>Foo</td>
+
+
+    </tr>
+
+
+
+
+
+</table>
+
+
+<h1 style="text-align: center">Fronted dasturlash texnalogiyalari</h1>
+<div style="display: flex">
+    <div> <img src="../html.png" alt=""></div>
+    <div>
+        <b>HTML-</b><h5 style="display: inline">
+        Lorem ipsum dolor sit amet
+        , consectetur adipisicing elit. Aut deserunt magni
+        quod! Ab eaque earum libero, maxime reiciendis sequi
+        velit?
+    </h5>
+    </div>
+</div>
+<hr>
+<div style="display: flex">
+    <div> <img src="../Css.png" alt=""></div>
+    <div>
+        <b>HTML-</b>Lorem ipsum dolor sit amet
+        , consectetur adipisicing elit. Aut deserunt magni
+        quod! Ab eaque earum libero, maxime reiciendis sequi
+        velit?
+    </div>
+</div>
+
+<hr>
+<div style="display: flex">
+    <div> <img src="../Js.png" alt=""></div>
+    <div>
+        <b>HTML-</b>Lorem ipsum dolor sit amet
+        , consectetur adipisicing elit. Aut deserunt magni
+        quod! Ab eaque earum libero, maxime reiciendis sequi
+        velit?
+    </div>
+</div>
+
+
+
+
+
+<script src="demo.js"></script>
+</body>
+</html>
